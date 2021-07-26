@@ -28,7 +28,7 @@ public class Main {
         for (Map.Entry<String, String> entry : phonebook.entrySet()) {
             System.out.println("Name =  " + entry.getKey() + " Телефон = " + entry.getValue());
         }
-        System.out.println(phonebook.get("Воронин"));
+        System.out.println(phonebook.get("Иванов"));
     }
 }
 
